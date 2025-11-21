@@ -38,7 +38,7 @@ The **Simple Personal Budget Tracker** is a console-based Python application It 
     <br>
     <br>
 📑**Concepts Demonstrated**:
-<br>
+    <br> 
   - **Data Structures**: Lists for transactions, dicts for individual entries.
   - **Control Flow**: If-else for validation, for-loops for iteration.
   - **File I/O**: Basic reading/writing with `open()`.

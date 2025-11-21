@@ -69,8 +69,8 @@ def view_transactions():
     print("\nAll Transactions:")  # Header
     for i, trans in enumerate(transactions, 1):  # Loop with index starting at 1
         # Print formatted transaction details
-        print(f"{i}. {trans['type'].capitalize()}: ${trans['amount']:.2f} - {trans['description']} (Category: {trans['category']})")
-    print(f"\nCurrent Balance: ${balance:.2f}")  # Show balance
+        print(f"{i}. {trans['type'].capitalize()}: ₹{trans['amount']:.2f} - {trans['description']} (Category: {trans['category']})")
+    print(f"\nCurrent Balance: ₹{balance:.2f}")  # Show balance
 
 def generate_report():
     """
@@ -87,8 +87,8 @@ def generate_report():
             categories[cat] = categories.get(cat, 0) + trans['amount']  # Add to total (default to 0 if new)
     print("\nExpense Report by Category:")  # Header
     for cat, total in categories.items():  # Loop through category totals
-        print(f"{cat}: ${total:.2f}")  # Print each category's total
-    print(f"Total Expenses: ${sum(categories.values()):.2f}")  # Print overall expense total
+        print(f"{cat}: ₹{total:.2f}")  # Print each category's total
+    print(f"Total Expenses: ₹{sum(categories.values()):.2f}")  # Print overall expense total
 
 def main():
     """

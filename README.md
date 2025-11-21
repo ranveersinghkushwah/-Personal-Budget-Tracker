@@ -35,8 +35,8 @@ The **Simple Personal Budget Tracker** is a console-based Python application It 
   - `view_transactions()`: Loops through the list to print details.
   - `generate_report()`: Uses a dictionary to tally expenses by category.
   - `main()`: The menu loop, calling other functions based on user choice.
-  - <br>
-  📑**Concepts Demonstrated**:
+    <br>
+📑**Concepts Demonstrated**:
   - **Data Structures**: Lists for transactions, dicts for individual entries.
   - **Control Flow**: If-else for validation, for-loops for iteration.
   - **File I/O**: Basic reading/writing with `open()`.

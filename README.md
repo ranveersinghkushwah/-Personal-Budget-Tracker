@@ -1,5 +1,6 @@
 🚀**Overview of the Project**
 <br>
+<br>
 The **Simple Personal Budget Tracker** is a console-based Python application It simulates a basic financial tool where users can log income and expenses, track their balance, and analyze spending by category. This project emphasizes real-world application (e.g., helping students manage allowances or part-time job earnings) and introduces key Python skills like data structures, loops, conditionals, functions, and file handling. It's unique due to its category-based reporting feature, which goes beyond simple addition/subtraction to encourage data analysis.
 
 📖**Purpose and Learning Goals**
